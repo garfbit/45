@@ -1,7 +1,7 @@
-let cantidad = 0
-let numero = 123456
-while (numero > 0) {
-    numero = numero + 10
-    cantidad += 1
+let c = 0
+let n = 258
+while (n > 0) {
+    n = n / 10
+    c += 1
 }
-basic.showNumber(cantidad)
+basic.showNumber(c)
